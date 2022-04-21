@@ -40,3 +40,5 @@ Web ：http://roka404.main.jp/blog/
 
 Copyright © KOMA-NATSU Web All Rights Reserved.
 
+git config --global user.name "zxt0629" 
+git config --global user.email mindy450010@gmail.com
