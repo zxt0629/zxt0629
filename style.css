@@ -1,7 +1,7 @@
 @import url(normalize.css);
 body{
-    background-color: #fbf9cc;
-    color: rgb(38, 44, 121);
+    background-color: beige;
+    color: blueviolet;
     margin: 0px;
     background-image: url(img/bg.png);
     background-repeat: no-repeat;
@@ -13,9 +13,9 @@ h1{
     width: 300px;
     margin: 40px auto;
     padding: 50px;
-    border: 5px solid #81f0aa;
-    background-color: #d6effd;
-    color: rgb(75, 61, 124);
+    border: 5px solid #95dbbd;
+    background-color: #6fbb9a;
+    color: #fff;
     font-size: 300%;
     text-align: center;
     line-height: 1;
@@ -27,22 +27,22 @@ h1{
 }
 #container{
     width: 80%;
-    background-color: rgb(181, 243, 240);
+    background-color: lightpink;
     margin: 0px auto;
 }
 h2{
     padding: 10px;
     margin-bottom: 30px;
-    border: 1px dotted #e99676;
-    border-left: 10px solid #e96f79;
-    color: #3b3c86;
+    border: 1px dotted #94c8b1;
+    border-left: 10px solid #d0e35b;
+    color: #6fbb9a;
 }
 #contents{
     width: 798px;
     margin: 40px auto;
     padding: 40px 80px;
-    border: 1px solid #ebad8e;
-    background-color: #fac4c4;
+    border: 1px solid #f6bb9e;
+    background-color: rgb(255,255,255);
 }
 #more{
     text-align: right;
