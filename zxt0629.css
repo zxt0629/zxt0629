@@ -1,0 +1,21 @@
+
+header{
+    background-color: #CEDFFF;
+    text-align: center;
+    line-height: 15px;
+}
+main{
+    background-color: #D6FFFF;
+}
+footer{
+    background-color: #FFE0E8;
+}
+img{
+    border-radius: 30px;
+}
+h1{
+    font-size: 250%;
+}
+p{
+    line-height: 28px;
+}
