@@ -1,4 +1,6 @@
-
+body{
+    background-color: #fdfcea;
+}
 header{
     background-color: #CEDFFF;
     text-align: center;
@@ -18,4 +20,22 @@ h1{
 }
 p{
     line-height: 28px;
+}
+.h{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #85c9f0;
+    border-left: 10px solid #7a9ac4;
+    color: #000000;
+    border-radius: 5px 0 0 5px;
+}
+body{
+    background-size: 50px 70px;
+}
+#container {
+    margin: 0 auto;
+    width: 85%;
+}
+footer{
+    text-align: center;
 }
