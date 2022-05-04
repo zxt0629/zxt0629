@@ -21,6 +21,12 @@ h1{
 p{
     line-height: 28px;
 }
+.p{
+    font-size: 20px;
+}
+.p2{
+    color: #595959;
+}
 .h{
     padding: 10px;
     margin-bottom: 30px;
@@ -28,6 +34,7 @@ p{
     border-left: 10px solid #7a9ac4;
     color: #000000;
     border-radius: 5px 0 0 5px;
+    text-align: left;
 }
 body{
     background-size: 50px 70px;
@@ -38,4 +45,41 @@ body{
 }
 footer{
     text-align: center;
+}
+.td{
+    height: 30px;
+}
+.hr{
+    size:2px;
+    color:black;
+}
+.td2{
+    font-size: 20px;
+    height: 20px;
+}
+.td3{
+    color: #222222;
+    width:260px;
+    height: 60px;
+}
+.td4{
+    color: #222222;
+    width:200px;
+    height: 60px;
+}
+.p3{
+    font-size: 20px;
+    height:20px;
+}
+.td5{
+    height: 30px;
+    text-align: center;
+}
+.td6{
+    color: #222222;
+    width:260px;
+    height: 100px;
+    vertical-align:text-top;
+    text-align:justify;
+    text-justify: distribute;
 }
