@@ -1,0 +1,25 @@
+header{
+    height: 300px;
+    background-color: rgb(252, 216, 216);
+}
+aside{
+    height: 300px;
+    background-color: rgb(250, 231, 216);
+    width: 20%;
+    float: left;
+}
+section{
+    background-color: rgb(248, 245, 204);
+    width: 80%;
+    float: left;
+}
+footer{
+    height: 150px;
+    background-color: rgb(204, 248, 248);
+    clear: both;
+}
+.post{
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
