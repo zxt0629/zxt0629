@@ -121,3 +121,25 @@ a[href^="mailto:"]::after{
     display: block;
     clear: both;
 }
+nav{
+    background-color: rgb(174, 232, 250);
+    text-align: right;
+}
+nav ul{
+    margin: 0px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: rgb(250, 212, 222);
+    color: rgb(21, 22, 87);
+    transition: background-color 2s linear,color 2s ease-in-out;
+}
