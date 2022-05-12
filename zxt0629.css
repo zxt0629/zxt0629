@@ -45,6 +45,28 @@ body{
 }
 .td2{
     font-size: 20px;
+    height: 20px; 
+    text-decoration: none;
+    color: #000000;
+}
+.mail{
+    text-decoration: none;
+    color: #000000;
+}
+main a:hover{
+    text-decoration:underline;
+    background-color:#D6FFFF;
+    color:rgb(250, 117, 139);
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration:underline;
+    background-color:#CEDFFF;
+    color:rgb(80, 184, 175);
+    text-decoration: none;
+}
+.td1{
+    font-size: 20px;
     height: 20px;
 }
 .td3{
@@ -80,11 +102,45 @@ body{
     float: left;
 }
 .s1{
-    height: 200px;
+    height: 250px;
 }
 .s2{
-    height: 650px;
+    height: 750px;
 }
 .s3{
-    height: 1800px;
+    height: 1900px;
+}
+nav{
+    background-color: rgb(174, 232, 250);
+    text-align: right;
+}
+nav ul{
+    margin: 0px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    
+}
+nav li a:hover{
+    background-color: rgb(221, 252, 244);
+    color: rgb(49, 69, 158);
+    transition: background-color 1s linear,color 1s ease-in-out;
+}
+.p{
+    font-size: 20px;
+    line-height: 28px;
+}
+.p2{
+    line-height: 25px;
+    color: #363636;
+}
+.p3{
+    font-size: 20px;
 }
