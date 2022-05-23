@@ -1,0 +1,110 @@
+#menu {
+	height:30px;
+	text-align: right;
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#menu ul {
+	background-color: rgb(174, 232, 250);
+}
+#menu ul li a {
+	color:rgb(57, 58, 117);
+	text-decoration:none;
+	line-height: 30px;
+}
+#menu ul li ul {
+	background:#c4ffdf;
+}
+#menu ul li ul li a {
+	font-size:0.8em;
+	color:#254149;
+	text-decoration:none;
+}
+#menu ul li:hover, #menu ul li a:hover {
+	background:#fcd8d8;
+}
+#menu ul li:hover a {
+	color:#1f413e;
+}
+#menu ul li ul li:hover, #menu ul li ul li a:hover {
+	background:#9ac5ad;
+}
+#menu ul li a:hover{
+    background-color: rgb(255, 248, 208);
+    color: rgb(70, 33, 100);
+    transition: background-color 1s linear,color 1s ease-in-out;
+}
+#menu ul li ul a:hover{
+    background-color: rgb(255, 248, 208);
+    color: rgb(70, 33, 100);
+    transition: background-color 1s linear,color 1s ease-in-out;
+}
+#menu ul li ul li a:hover{
+    background-color: rgb(255, 248, 208);
+    color: rgb(70, 33, 100);
+    transition: background-color 1s linear,color 1s ease-in-out;
+}
+#menu ul li ul li ul a:hover{
+    background-color: rgb(255, 248, 208);
+    color: rgb(70, 33, 100);
+    transition: background-color 1s linear,color 1s ease-in-out;
+}
+#menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+    overflow:auto;
+}
+#menu ul li {
+	float:left;
+}
+#menu ul li a {
+	display:block;
+	float:right;
+	height:30px;
+	width: 100px;
+	text-align: center;
+}
+#menu ul li ul {
+	position:absolute;
+	width:100px;
+	overflow:visible;
+	clear:left;
+	margin-top: 30px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+#menu ul li ul li {
+	float:none;
+	text-align: center;
+}
+#menu ul li ul li a {
+	float:none;
+	width: 100%;
+}
+#menu ul li ul li ul {
+	margin-top: -30px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 100px;
+	width: 100%;
+}
+#menu ul li ul {
+	visibility:hidden;
+}
+#menu ul li:hover ul {
+	visibility:visible;
+}
+#menu ul li:hover ul li ul {
+	visibility:hidden;
+}
+#menu ul li ul li:hover ul {
+	visibility:visible;
+}
+#menu ul li ul li:hover ul li ul {
+	visibility:hidden;
+}
+#menu ul li ul li ul li:hover ul {
+	visibility:visible;
+}
