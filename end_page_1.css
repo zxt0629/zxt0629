@@ -1,0 +1,53 @@
+
+nav{
+    height:40px;
+	text-align: right;
+	font-size:20px;
+}
+nav ul{
+    background-color: rgb(252, 197, 197);
+    color: #202146;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    width:150px ;
+    height: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover ul {
+	visibility:visible;
+}
+nav ul li ul{
+    position:absolute;
+    width:100px;
+    overflow:visible;
+    clear:left;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    visibility:hidden;
+}
+nav ul li:hover ul li ul {
+	visibility:hidden;
+}
+nav ul li ul li:hover ul {
+	visibility:visible;
+}
+nav ul li ul li {
+	float:none;
+    text-align: left;
+    width: 100px;
+    height: 40px;
+}
+nav ul li ul li a {
+	font-size:20px;
+	color:#222222;
+	text-decoration:none;
+}
+#header img{
+    width:100%;
+}
