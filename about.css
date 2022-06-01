@@ -108,12 +108,12 @@
 
         .btn-primary {
             color: #fff;
-            background: #16a083;
+            background-color: #ffc1c1;
         }
 
         .btn-primary:hover {
-            background: #117964;
-            transition: background 0.3s ease-in-out;
+            background-color: #c48d8d;
+            transition: background-color 0.3s ease-in-out;
         }
 
         /* ............/navbar/............ *
@@ -163,8 +163,9 @@
         }
 
         .menu-items a:hover {
-            color: #117964;
-            transition: color 0.3s ease-in-out;
+            color: #19264b;
+            font-weight: bold;
+            transition: color 2s ease-in-out;
         }
 
         .logo {
@@ -179,7 +180,7 @@
             height: 50vh;
             background: linear-gradient(rgba(240, 240, 240, 0.144),
                     rgba(255, 255, 255, 0.336)),
-                url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+                url("img/6.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
