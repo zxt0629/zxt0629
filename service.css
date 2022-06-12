@@ -153,6 +153,9 @@
         #about p {
             font-size: 1.2rem;
             color: #555;
+            line-height: 150%;
+            text-align: justify;
+            text-justify:inter-ideograph;
         }
 
         #about .small {
@@ -188,6 +191,7 @@
             }
         }
 
+        
         .about-img img {
             display: block;
             height: 400px;
