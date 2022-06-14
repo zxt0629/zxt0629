@@ -37,11 +37,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('img/header_4.jpg');
+    background-color: #19264b;
     background-size: cover;
     color: rgb(255, 255, 255);
     padding: 40px;
-	height: 300px;
+	height: 100px;
 }
 header h1{
     font-family: 'Playfair Display', serif;
@@ -329,4 +329,140 @@ h2{
 }
 .more  a:hover{
     color:rgb(77, 153, 147);
+}
+.menu-items {
+    order: 2;
+    display: flex;
+}
+.menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.menu-items a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+.menu-items a:hover {
+    color: #19264b;
+    font-weight: bold;
+    transition: color 2s ease-in-out;
+}
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+}
+#food {
+    padding: 5rem 0 10rem 0;
+}
+#food h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #555;
+}
+.food-container {
+    display: flex;
+    justify-content: space-between;
+}
+.food-container img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.img-container {
+    margin: 0 1rem;
+    position: relative;
+}
+.img-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 2;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+.img-content h3 {
+    color: #fff;
+    font-size: 25px;
+}
+.img-content a {
+    font-size: 1.2rem;
+}
+.img-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.871);
+    opacity: 0;
+    z-index: 1;
+    transform: scaleY(0);
+    transform-origin: 100% 100%;
+    transition: all 0.3s ease-in-out;
+}
+.img-container:hover::after {
+    opacity: 1;
+    transform: scaleY(1);
+}
+.img-container:hover .img-content {
+    opacity: 1;
+    top: 40%;
+}
+.food-menu-container img {
+    margin: auto;
+}
+.food-menu-item {
+    flex-direction: column;
+    text-align: center;
+}
+.form-container {
+    width: 90%;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+.contact-img {
+    width: 90%;
+    margin: 3rem auto;
+}
+.food-container{
+    margin-top: 30px;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: small;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ffc1c1;
+}
+.btn-primary:hover {
+    background-color: #c48d8d;
+    transition: background-color 0.3s ease-in-out;
 }
