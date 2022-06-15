@@ -339,6 +339,7 @@ h2{
 .main .content .card{
     height: 100%;
 }
-.main .before{
+.before{
     text-align: right;
+    margin-right:150px ;
 }
